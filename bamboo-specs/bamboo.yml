@@ -2,8 +2,8 @@
 version: 2
 plan:
   project-key: WEBCO
-  key: VLUIBUTTON
-  name: webcomponent-vl-ui-button
+  key: SHEP
+  name: static-http-error-pages
 
 triggers:
   - polling: 130
@@ -52,7 +52,7 @@ Release:
 ---
 version: 2
 plan:
-  key: WEBCO-VLUIBUTTON
+  key: WEBCO-SHEP
 
 plan-permissions:
   - groups:
