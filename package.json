@@ -22,7 +22,6 @@
     "postbuild": "find dist -name '*.js' -delete",
     "prestart": "npm run build",
     "start": "webpack-dev-server --open --port 9000",
-    "test:grid": "echo no tests",
     "release": "np",
     "release:prepare": "echo no prepare",
     "release:testless": "np --yolo"
