@@ -17,7 +17,7 @@
     "vl-ui-footer": "github:milieuinfo/webcomponent-vl-ui-footer#bundler",
     "vl-ui-header": "github:milieuinfo/webcomponent-vl-ui-header#bundler",
     "vl-ui-http-error-message": "github:milieuinfo/webcomponent-vl-ui-http-error-message#new-error-codes",
-    "vl-ui-template": "github:milieuinfo/webcomponent-vl-ui-template#v-center"
+    "vl-ui-template": "^3.1.0"
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
