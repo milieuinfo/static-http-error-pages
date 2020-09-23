@@ -23,7 +23,7 @@
     "prestart": "npm run build",
     "start": "webpack-dev-server --open --port 9000",
     "release": "np",
-    "release:prepare": "echo no prepare",
+    "release:prepare": "",
     "release:testless": "np --yolo"
   },
   "dependencies": {
