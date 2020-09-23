@@ -5,6 +5,17 @@
   "author": "DIDM",
   "license": "MIT",
   "main": "src/index.js",
+  "homepage": "https://github.com/milieuinfo/static-http-error-pages#readme",
+  "bugs": {
+    "url": "https://github.com/milieuinfo/static-http-error-pages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milieuinfo/static-http-error-pages.git"
+  },
+  "publishConfig": {
+    "registry": "http://artifactory-pr-build.lb.cumuli.be:8081/artifactory/api/npm/acd-npm/"
+  },
   "scripts": {
     "prebuild": "find dist -name '*.*' -delete",
     "build": "webpack",
