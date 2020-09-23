@@ -30,15 +30,15 @@
     "vl-ui-body": "github:milieuinfo/webcomponent-vl-ui-body#sticky",
     "vl-ui-footer": "github:milieuinfo/webcomponent-vl-ui-footer#bundler",
     "vl-ui-header": "github:milieuinfo/webcomponent-vl-ui-header#bundler",
-    "vl-ui-http-error-message": "github:milieuinfo/webcomponent-vl-ui-http-error-message#new-error-codes",
+    "vl-ui-http-error-message": "github:milieuinfo/webcomponent-vl-ui-http-error-message",
     "vl-ui-template": "^3.1.0"
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
     "html-webpack-inline-source-plugin": "1.0.0-beta.2",
     "html-webpack-plugin": "^4.4.1",
-    "np": "^6.4.0",
     "style-loader": "^1.2.1",
+    "vl-ui-util": "^5.2.14",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
