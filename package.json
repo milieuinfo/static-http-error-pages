@@ -28,8 +28,6 @@
   },
   "dependencies": {
     "vl-ui-body": "^1.0.5",
-    "vl-ui-footer": "^3.2.1",
-    "vl-ui-header": "^3.2.1",
     "vl-ui-http-error-message": "^3.2.0",
     "vl-ui-template": "^3.1.0"
   },
