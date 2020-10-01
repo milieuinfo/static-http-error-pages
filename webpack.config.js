@@ -5,7 +5,8 @@ const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin
 module.exports = {
     mode: 'production',
     entry: {
-        'index': './src/js/index.js'
+        'index': './src/js/index.js',
+        '502': './src/js/502.js'
     },
     output: {
         filename: '[name].bundle.[chunkhash].js',
@@ -133,7 +134,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: '502.html',
             template: 'src/html/502.html',
-            chunks: ['index'],
+            chunks: ['index', '502'],
             inlineSource: '.(js|css)$',
             favicon: 'src/img/favicon.ico'
         }),
