@@ -22,7 +22,7 @@ Uiteraard is het ook toegelaten om mee te ontwikkelen door gebruik te maken van 
 3. Elke PR moet een issue verwijzing hebben, zodat deze automatisch opgenomen kan worden in de release notes
 
 ## Versionering
-We gebruiken [Semantic Versioning](https://semver.org) en voorzien elke release van release notes, zie een overzicht van de [releases](https://github.com/milieuinfo/webcomponent-vl-ui-button/releases).
+We gebruiken [Semantic Versioning](https://semver.org) en voorzien elke release van release notes, zie een overzicht van de [releases](https://github.com/milieuinfo/webcomponent-vl-ui-static-http-error-pages/releases).
 
 ## Browser ondersteuning
 De pagina's zijn ontwikkeld door uitsluitend gebruik te maken van web standaarden (JavaScript, HTML, CSS). Hierdoor worden al de evergreen browser automatisch ondersteund.
@@ -32,7 +32,7 @@ De pagina's zijn ontwikkeld door uitsluitend gebruik te maken van web standaarde
 | <center>Chrome</center> | <center>Firefox</center> | <center>Safari</center> | <center>Opera</center> | <center>Edge</center> |
 
 ## Credits
-Zie de lijst van [ontwikkelaars](https://github.com/milieuinfo/webcomponent-vl-ui-button/graphs/contributors) die meegewerkt hebben aan de webcomponent.
+Zie de lijst van [ontwikkelaars](https://github.com/milieuinfo/webcomponent-vl-ui-static-http-error-pages/graphs/contributors) die meegewerkt hebben aan de webcomponent.
 
 ## Contact
 Heb je suggesties, opmerkingen of tips? Voel je dan vrij om ons te contacteren via help@omgevingvlaanderen.be.
