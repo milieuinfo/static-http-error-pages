@@ -27,9 +27,9 @@
     "release:testless": "np --yolo"
   },
   "dependencies": {
-    "vl-ui-body": "^1.0.5",
-    "vl-ui-http-error-message": "^3.2.1",
-    "vl-ui-template": "^3.1.0"
+    "vl-ui-body": "^1.0.7",
+    "vl-ui-http-error-message": "^3.2.2",
+    "vl-ui-template": "^3.1.1"
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
