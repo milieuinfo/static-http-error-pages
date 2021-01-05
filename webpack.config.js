@@ -6,6 +6,7 @@ module.exports = {
     mode: 'production',
     entry: {
         'index': './src/js/index.js',
+        '404': './src/js/404.js',
         '502': './src/js/502.js'
     },
     output: {
@@ -57,7 +58,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: '404.html',
             template: 'src/html/404.html',
-            chunks: ['index'],
+            chunks: ['index', '404'],
             inlineSource: '.(js|css)$',
             favicon: 'src/img/favicon.ico'
         }),
