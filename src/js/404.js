@@ -14,7 +14,7 @@
         case 'ontwikkel.milieuinfo.be':
         case 'oefen.milieuinfo.be':
         case 'milieuinfo.be':
-            if (location.pathname.includes('/seveso/')) {
+            if (location.pathname.startsWith('/seveso')) {
                 customize({
                     title: 'Niet meer beschikbaar',
                     text: 'De internettoepassing voor de bepaling van de Seveso-status wordt niet langer ter beschikking gesteld. Informatie omtrent de Seveso-statusbepaling kan gevonden worden op <a href="https://omgeving.vlaanderen.be/bepalen-van-de-seveso-status" target="_blank">https://omgeving.vlaanderen.be/bepalen-van-de-seveso-status</a>.<br/><br/>Voor bijkomende vragen omtrent de Seveso-statusbepaling gelieve contact op te nemen met het Team Externe Veiligheid via <a href="mailto:seveso@vlaanderen.be">seveso@vlaanderen.be</a>.'
