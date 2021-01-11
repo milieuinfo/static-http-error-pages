@@ -13,7 +13,7 @@
     switch (hostname) {
         case 'ontwikkel.milieuinfo.be':
         case 'oefen.milieuinfo.be':
-        case 'milieuinfo.be':
+        case 'www.milieuinfo.be':
             if (location.pathname.startsWith('/seveso')) {
                 customize({
                     title: 'Niet meer beschikbaar',
