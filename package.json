@@ -14,7 +14,7 @@
     "url": "git+https://github.com/milieuinfo/static-http-error-pages.git"
   },
   "publishConfig": {
-    "registry": "http://artifactory-pr-build.lb.cumuli.be:8081/artifactory/api/npm/acd-npm/"
+    "registry": "https://repo.omgeving.vlaanderen.be/artifactory/api/npm/acd-npm/"
   },
   "scripts": {
     "prebuild": "find dist -name '*.*' -delete",
