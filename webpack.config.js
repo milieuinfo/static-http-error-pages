@@ -7,7 +7,8 @@ module.exports = {
     entry: {
         'index': './src/js/index.js',
         '404': './src/js/404.js',
-        '502': './src/js/502.js'
+        '502': './src/js/502.js',
+        '503': './src/js/503.js'
     },
     output: {
         filename: '[name].bundle.[chunkhash].js',
@@ -142,7 +143,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: '503.html',
             template: 'src/html/503.html',
-            chunks: ['index'],
+            chunks: ['index', '503'],
             inlineSource: '.(js|css)$',
             favicon: 'src/img/favicon.ico'
         }),
